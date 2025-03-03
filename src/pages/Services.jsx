@@ -1,6 +1,10 @@
 import React from "react";
 import '../style/Services.css';
 import Card from 'react-bootstrap/Card';
+import banner from '../images/banner.jpg';
+import brush from '../images/brush.svg';
+import slash from '../images/slash.svg';
+import search from '../images/search.svg';
 
 
 
@@ -8,7 +12,7 @@ import Card from 'react-bootstrap/Card';
 const Services = () => {
   return (
     <main>
-      <img className="img1" src="../images/banner.jpg" alt="fond violet avec un eclair blanc"></img>
+      <img className="img1" src={banner} alt="fond violet avec un eclair blanc"></img>
 
       <div className="text-center">
         <h1>Mon offre de services</h1>
@@ -22,7 +26,7 @@ const Services = () => {
         <div>
           <Card className="card1" style={{ width: '20rem',height:'20rem'}}>
             <Card.Body className="onecard">     
-                <img className="icon-card" src="../images/brush.svg" style={{ width: '40px', height: '40px'}} alt="pinceau"></img>
+                <img className="icon-card" src={brush} style={{ width: '40px', height: '40px'}} alt="pinceau"></img>
                 <Card.Title style={{fontWeight:'bold',padding:'10px'}}>UX design</Card.Title>             
                 <Card.Text>
                   L'UX Design est une discipline qui consiste à concevoir des produits
@@ -37,7 +41,7 @@ const Services = () => {
         <div>
           <Card className="card1" style={{ width: '20rem',height:'20rem' }}>
             <Card.Body className="onecard">
-                <img src="../images/code-slash.svg" alt="slash" style={{ width: '40px', height: '40px' }}></img>             
+                <img src={slash} alt="slash" style={{ width: '40px', height: '40px' }}></img>             
                 <Card.Title style={{fontWeight:'bold',padding:'10px'}}>Développement web</Card.Title>           
                 <Card.Text>
                   Le developpement de sites web consiste à créer des sites internet en utilisant des languages
@@ -50,7 +54,7 @@ const Services = () => {
         <div>
           <Card className="card1" style={{ width: '20rem',height:'20rem' }}>
             <Card.Body className="onecard">              
-                <img src="../images/search.svg" alt="loupe" style={{ width: '40px', height: '40px' }}></img>             
+                <img src={search} alt="loupe" style={{ width: '40px', height: '40px' }}></img>             
                 <Card.Title style={{fontWeight:'bold',padding:'10px'}}>Référencement</Card.Title>
                 <Card.Text>
                   Le référencement naturel(SEO)est une technnique qui à optimiser un site web pour le faire remonter dans les résultats

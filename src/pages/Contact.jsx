@@ -1,6 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import '../style/Contact.css';
+import map from '../images/map.svg';
+import geo from '../images/geo.svg';
+import tablet from '../images/tablet.svg';
+import envelope from '../images/envelope.svg';
 
 
 
@@ -49,22 +53,22 @@ const Contact = () => {
                             
                                 <h4>John Doe</h4>
                                 <div className='info'>
-                                    <img className='icon-info' src='../images/map.svg' alt='logo de carte'></img>
+                                    <img className='icon-info' src={map} alt='logo de carte'></img>
                                     <p className='para-info'>40 rue Laure Diebold</p>
                                 </div>
 
                                 <div className='info'>
-                                    <img className='icon-info' src='../images/geo-alt.svg' alt='logo geolocalisation'></img>
+                                    <img className='icon-info' src={geo} alt='logo geolocalisation'></img>
                                     <p className='para-info'>69009 Lyon, France</p>
                                 </div>
 
                                 <div className='info'>
-                                    <img className='icon-info' src='../images/tablet.svg' alt='logo de tablette'></img>
+                                    <img className='icon-info' src={tablet} alt='logo de tablette'></img>
                                     <p className='para-info' >10 20 30 40 50</p>
                                 </div>
 
                                 <div className='info'>
-                                    <img className='icon-info' src='../images/envelope-at.svg' alt='logo envelope avec un arobase'></img>
+                                    <img className='icon-info' src={envelope} alt='logo envelope avec un arobase'></img>
                                     <p className='para-info'>john.deo@gmail.com</p>
                                 </div>
 

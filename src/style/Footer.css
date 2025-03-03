@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: black;
+    background-color:black;
+    opacity: 0.9;
     color: white;
     padding-top: 20px;
     font-size: small; 
@@ -12,7 +13,6 @@
 .john, .liens, .rea{
     display: flex;
     flex-direction: column;
-    align-items: right;
 }
 
 h4{
@@ -30,6 +30,9 @@ a{
 a:hover{
     font-weight: bold;
 }
+
+    
+
 
 
 

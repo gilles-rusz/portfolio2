@@ -6,6 +6,14 @@ import Figure from 'react-bootstrap/Figure';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
+import hero from '../images/hero.jpg';
+import john from '../images/john.jpg';
+import person from '../images/person.svg';
+import geo from '../images/geo.svg';
+import card from '../images/card.svg';
+import box from '../images/box.svg';
+import people from '../images/people.svg';
+import avatar from '../images/avatar.png';
 
 
 const Home = () => {
@@ -20,7 +28,6 @@ const Home = () => {
                     <div className='presentation'>
                         <h1 className='text-center' style={{ fontWeight: 'bold', fontSize: '50px' }}>Bonjour, je suis John Deo</h1>
                         <h2 className='text-center' style={{ fontWeight: 'bold', fontSize: '30px' }}>Développeur web full stack</h2>
-
                         <>
                             <Button variant="danger" onClick={() => setShow(true)} style={{ width: '150px', marginLeft: '35%' }} >
                                 En savoir plus
@@ -40,30 +47,30 @@ const Home = () => {
                                     </Modal.Header>
                                     <Modal.Body className='contenaire-modal'>
                                         <section className='left-modal'>
-                                            <img className='logo-modal' src='../images/avatar.png' alt='logo john deo'></img>
+                                            <img className='logo-modal' src={avatar} alt='logo john deo'></img>
                                         </section>
                                         <section className='right-modal'>
                                             <div className='icon1'>
-                                                <img className='icon' src='../images/person.svg' alt='logo person' ></img>
+                                                <img className='icon' src={person} alt='logo person' ></img>
                                                 <a className='para-icon' href='https://api.github.com/users/github-john-doe'>john deo</a>
                                             </div>
                                             <div className='geo'>
-                                                <img className='icon' src='../images/geo-alt.svg' alt='logo geolocalisation'></img>
+                                                <img className='icon' src={geo} alt='logo geolocalisation'></img>
                                             </div>
                                             <div className='para'>
-                                                <img className='icon' src='../images/card-heading.svg' alt="logo d'une carte"></img>
+                                                <img className='icon' src={card} alt="logo d'une carte"></img>
                                                 <p className='para-icon1'>AS we all know, john Doe's identity is unknown.I just wanted to contribute without being known. </p>
                                             </div>
                                             <div className='repository'>
-                                                <img className='icon' src='../images/box-seam.svg' alt='petite boite'></img>
+                                                <img className='icon' src={box} alt='petite boite'></img>
                                                 <p>Repository:1</p>
                                             </div>
                                             <div className='followers'>
-                                                <img className='icon' src='../images/people.svg' alt='petite boite'></img>
+                                                <img className='icon' src={people} alt='petite boite'></img>
                                                 <p>Followers:16</p>
                                             </div>
                                             <div className='folowing'>
-                                                <img className='icon' src='../images/people.svg' alt='petite boite'></img>
+                                                <img className='icon' src={people} alt='petite boite'></img>
                                                 <p>Following:0</p>
                                             </div>
                                         </section>
@@ -81,7 +88,7 @@ const Home = () => {
 
                     </div>
                     <div className='hero-content' >
-                        <img src="./images/hero-bg.jpg" alt="un homme devant un pc"></img>
+                        <img src={hero} alt="un homme devant un pc"></img>
                     </div>
                 </div>
                 <div className='contenaire'>
@@ -91,7 +98,7 @@ const Home = () => {
                                 <h3 className='text-center'>A propos</h3>
 
                                 <Figure>
-                                    <Figure.Image src="../images/john-doe-about.jpg" />
+                                    <Figure.Image src={john} />
                                     <Figure.Caption>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sint magnam illo. Recusandae aliquid similique labore, aperiam delectus qui nostrum et eaque nesciunt doloremque facere, veniam optio tempore unde inventore!
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, excepturi dolorem quia eius mollitia molestias culpa quisquam ipsa cumque fugiat eaque sequi sit obcaecati natus officiis recusandae nostrum ratione dolore?

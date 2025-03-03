@@ -1,6 +1,9 @@
 
 import React from 'react';
 import '../style/Footer.css';
+import social from '../images/social.png';
+import twitter from '../images/twitter.png';
+import linkedin from '../images/linkedin.png';
 
 
 
@@ -16,11 +19,10 @@ const Footer = () => {
           <li>40 rue Laure Diebold 69009 Lyon, France</li>
           <li>10 20 30 40 50</li>
           <li>john.deo@gmail.com</li>
-          <div className='reseaux'>
-            <img className='icon' href='portfolio/public/images/twitter.png' alt='logo twiter'></img>
-            <img className='icon' href='portfolio/public/images/social.png' alt='logo github'></img>
-            <img className='icon' href='portfolio/public/images/linkedin.png'alt='logo linkedin'></img>
-          </div>
+          <img classNamesrc='social' src={twitter} alt='logo twitter' style={{color:'white', width:'20px'}}/>
+          <img className='social' src={social} alt='logo github' style={{color:'white', width:'20px'}}/>
+          <img classNamesrc='social' src={linkedin} alt='linkedin' style={{color:'white', width:'20px'}}/>
+         
         </ul>
       </div>
       <div className="liens">

@@ -2,6 +2,15 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import '../style/Portfolio.css';
+import banner from '../images/banner.jpg';
+import fresh from '../images/fresh.jpg';
+import japonais from '../images/japonais.jpg';
+import espace from '../images/espace.jpg';
+import seo from '../images/seo.jpg';
+import coder from '../images/coder.jpg';
+import screens from '../images/screens.jpg';
+
+
 
 
 
@@ -9,7 +18,7 @@ import '../style/Portfolio.css';
 const Portfolio = () => {
     return (
         <main>
-            <img className="img1" src="../images/banner.jpg" alt="fond violet avec un eclair blanc"></img>
+            <img className="img1" src={banner} alt="fond violet avec un eclair blanc"></img>
 
             <div className="title2">
                 <h1>Portfolio</h1>
@@ -21,7 +30,7 @@ const Portfolio = () => {
             <div className="realisation">
                 <div className="realisation1">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/fresh-food.jpg"  />
+                        <Card.Img variant="top" src={fresh}  />
                         <Card.Body>
                             <Card.Title>Fresh Food</Card.Title>
                             <Card.Text>
@@ -37,7 +46,7 @@ const Portfolio = () => {
 
                 <div className="realisation2">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/restaurant-japonais.jpg"  />
+                        <Card.Img variant="top" src={japonais}  />
                         <Card.Body>
                             <Card.Title>Restaurant Akira</Card.Title>
                             <Card.Text>
@@ -53,7 +62,7 @@ const Portfolio = () => {
 
                 <div className="realisation3">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/espace-bien-etre.jpg"  />
+                        <Card.Img variant="top" src={espace}  />
                         <Card.Body>
                             <Card.Title>Espace-bien-être</Card.Title>
                             <Card.Text>
@@ -69,7 +78,7 @@ const Portfolio = () => {
 
                 <div className="realisation4">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/seo.jpg"/>
+                        <Card.Img variant="top" src={seo}/>
                         <Card.Body>
                             <Card.Title>SEO</Card.Title>
                             <Card.Text>
@@ -85,7 +94,7 @@ const Portfolio = () => {
 
                 <div className="realisation5">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/coder.jpg"/>
+                        <Card.Img variant="top" src={coder}/>
                         <Card.Body>
                             <Card.Title>Création d'une API</Card.Title>
                             <Card.Text>
@@ -101,7 +110,7 @@ const Portfolio = () => {
 
                 <div className="realisation6">
                     <Card className='card2' style={{ width: '20rem',height:'30rem' }}>
-                        <Card.Img variant="top" src="../images/screens.jpg"  />
+                        <Card.Img variant="top" src={screens}  />
                         <Card.Body>
                             <Card.Title>Maquette d'un site web</Card.Title>
                             <Card.Text>
