@@ -1,0 +1,105 @@
+.presentation{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.hero1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-content{
+    width: 100%;
+    
+}
+
+.contenaire{
+    margin: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.deo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.bulle1{
+    box-shadow: 3px 3px 10px lightgray;
+}
+h3{
+    padding: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+}
+.item-left{
+    width: 400px;
+}
+.item-right{
+    width: 400px;
+}
+.logo-modal{
+    width: 200px;
+}
+.icon{
+    width: 20px;
+    margin-top: 5px;
+}
+.bulle3{
+    background-color:azure;    
+}
+.contenaire-modal{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.right-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    gap: 10px;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    gap: 5px;
+    border-bottom: 2px solid lightgray;
+
+}
+.para-icon{   
+    color: black;  
+}
+.geo{
+    width: 200px;
+    height: 30px;
+    border-bottom: 2px solid lightgray;
+}
+.para, .repository, .followers, .folowing{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    border-bottom: 2px solid lightgray;
+    width: 200px;
+}
+
+.left-modal{
+    width: 250px;
+    
+}
+
+
+
+  
+
+
+
+
+
+
+
+

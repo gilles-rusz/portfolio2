@@ -1,0 +1,50 @@
+.img1{
+    height: 200px;
+}
+.title2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-size: medium;
+}
+.presta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;   
+}
+.trait{
+    color:blue;
+    border-width: 5px;
+    width:30%;
+    margin-left: 35%;
+       
+}
+.titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card1:hover{
+    background-color: #efefef;
+    box-shadow: 3px 3px 15px lightgray;
+   
+}
+.onecard{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+}
+
+

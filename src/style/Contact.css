@@ -1,0 +1,44 @@
+.contenaire1{
+    margin: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+
+}
+.bulle{  
+    box-shadow: 3px 3px 10px lightgray;
+}
+.formulaire{
+    width: 45%;
+}
+.coordo{
+    width: 45%;
+    height: 100%;
+    
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+    height: 250PX;
+    
+}
+.champs{
+    padding: 10px;
+}
+.button1{
+    margin-left: 40%;
+}
+iframe{
+    width: 100%;
+    
+}
+

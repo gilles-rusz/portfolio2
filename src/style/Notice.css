@@ -1,0 +1,16 @@
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    height: 30px;
+}
+.para-info{
+    margin-top: 15px;
+}
+.icon-info{
+    width: 15px;
+}
+.liens-bleu{
+    color: blue;
+}

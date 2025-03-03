@@ -1,0 +1,13 @@
+.realisation{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+
+}
+.card2:hover{
+    background-color: #efefef;
+    box-shadow: 3px 3px 15px lightgray;
+}

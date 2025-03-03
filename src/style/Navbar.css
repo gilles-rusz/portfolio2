@@ -1,0 +1,14 @@
+
+.link1:hover{
+    color:white;
+    font-weight: bold;
+    border-bottom: 2px solid white;  
+}
+.link1:focus{
+    color:white;
+    font-weight: bold;
+    border-bottom: 2px solid white; 
+    
+}
+
+
